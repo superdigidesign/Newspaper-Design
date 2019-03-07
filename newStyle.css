@@ -1,0 +1,151 @@
+body {
+    width: 100%;
+    font-family: Verdana, sans-serif;
+    margin: 1em;
+    width: 60em;
+    font: 2em;
+}
+
+/* Header */
+#topHeader {  
+    background-color: #046dd5; 
+    color: white;
+    font-family: Verdana, Georgia;
+    font-size: .8em;
+    margin: 0;
+    color: white;
+    text-decoration: none;
+}
+
+#topHeader h1 {
+    padding-left: .7em;
+    padding-top: .2em;
+    margin-bottom: 0em;   
+}
+
+a {
+    color: white;
+    text-decoration: none;   
+}
+
+h2 {
+    padding-left: 1em;
+    padding-top: 0em;
+    margin-top: 0em;
+    font-size: 1.3em;
+}
+
+#signup {
+    color: white;
+    text-decoration: none;
+    padding-top: .5em;
+    padding-right: 2em;
+    
+}
+
+h2 a {
+    color: white;
+    text-decoration: none;
+    padding-top: 0em; 
+    font-size: .8em;
+}
+
+/* navigation */
+
+#menu ul {
+  margin: 0;
+  padding-top: 1em;
+  padding-left: 0em;
+  text-align: center;
+  border-top: 5px solid;  
+  border-image-width: 100%;
+  border-image: linear-gradient(to right, #e1493e 16.6%, #8aba56 16.6%, #8aba56 33.2%, #5b4282 33.2%, #5b4282 49.8%, #ff8932 49.8%, #ff8932 66.4%, #19b6e9 66.4%, #19b6e9 83%, #e84c8b 83%, #e84c8b 100%) 6;
+        }
+
+*/
+#menu li {
+  background-color: white;
+  text-align: center;
+  list-style-type: none;
+  padding: 1em 0;
+    
+}
+
+#menu li a{
+  color: black;
+  text-decoration: none;
+    
+}
+
+#menu li:hover {
+  background-color: #2a2f33;
+}
+
+#menu li:hover a{
+  color: white;
+}
+
+#hamburger, .hamburger {
+  display: none;
+}
+
+/* article */
+
+#news header {
+  max-width: 10em;
+  padding: 1em;
+  position: absolute;
+}
+
+#news header h1{
+  margin: 0;
+  width: 125%;
+  font-size: 1.6em;
+  text-shadow: .2em .2em .2em black;
+}
+
+#news header a{
+  color: white;
+  text-decoration: none;
+}
+
+#news img {
+  width: 100%;
+}
+p {
+    font: 1.4em;
+}
+
+article {
+   padding-top: 1em; 
+   
+}
+
+#related {
+    grid-column: middle;
+    grid-row: nav / end;
+    padding: 1em;
+    padding-top: .5em;
+    color: white;
+    background-color: #2a2f33;
+}
+
+footer {
+    background-color: #F4655F;
+    padding: .5em;
+    color: white;
+    margin: auto;
+}
+
+footer, .tags, .comments {
+    text-decoration: underline;
+}
+
+footer, .author, .tags, .date, .comments {
+    display: flex;
+    font-size: .9em;
+    width: auto;
+    padding: .5em;
+    color: white;
+
+}
